@@ -1,0 +1,234 @@
+$nouse:#BFA282 ;
+$as: #806C57;
+$crema:#FFD8AD;  
+$hedfoot:#42382D;
+$mclaro:#E6C29C;
+$rojo: red;
+$pixelgeneral: 330px;
+$medidaestandar:150px;
+
+/*
+<aside> CATALOGO DE COSTADO
+list-style-image: url;
+list-style-position */
+/* PARA USAR EL ANIMATED HAY QUE HACER:
+class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
+
+
+
+                            /*HEADER*/
+.carousel-item {
+    max-height: 700px; }
+  
+  header {
+    /*
+  padding-bottom: 15px;
+  background-color: #42382D;
+  color: rgb(255, 255, 255); */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: $hedfoot; }
+  
+  .header__anuncio {
+    text-align: center;
+    color: $rojo; 
+  }
+  
+  .nav-link {
+    color: #FFD8AD; }
+  
+
+  
+  .header__titulo{
+    color: #FFD8AD;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  
+  .header__boton {
+    letter-spacing: 2px;
+    float: right;
+    color: #FFD8AD;
+    text-decoration: none; }
+  
+    .wsp {
+      position: fixed;
+      bottom: 30px;
+      right: 30px; }
+
+      #anuncio {
+        color: #dd2626; }
+        
+        .header__lupa {
+          float: right;
+          width: 100px;
+          height: 16px;
+          font-size: 12px;
+          transition: all 2s; }
+        
+        .header__lupa:focus {
+          width: $medidaestandar;
+          height: 24;
+          font-size: 14px;
+          border: 1px solid black; }
+        
+      
+                            /*HEADER*/
+  * {
+    margin: 0;
+    padding: 0; }
+  
+                            /* MAIN */
+
+
+  $dimension: 330px;
+  @each $tabla in tabla1, tabla2, tabla3 {
+        .main__#{$tabla}{
+        height: $pixelgeneral;
+        width: $medidaestandar *2;
+        transition: width 3s; 
+        background-image: url("/images/#{$tabla}.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .main__#{$tabla}:hover {
+        width: 400px; }
+    
+  }
+
+  main {
+    background-color: #E6C29C;
+    padding-bottom: 20px; }
+
+  .main__tabla-1 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 330px 50px;
+    justify-content: center; }
+  /*
+  .main__tabla-2 {
+    height: 330px;
+    width: 300px;
+    transition: width 3s; }*/
+  .main__#{tabla}:hover{
+    
+    width: 400px; }
+  
+.main__historia-1{
+  padding: 60px 10% 60px 10%;
+  width: 100%;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  
+  background-image: url(https://static.vecteezy.com/system/resources/previews/003/498/690/non_2x/wood-texture-background-wood-planks-or-wood-wall-free-photo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;
+  background-color: black;
+  opacity: 0.6;
+  
+}
+
+
+
+  
+  /* FOOTER  */
+  footer {
+    background-color: #42382D;
+    margin-top: -18px; }
+  
+  .footer__padre{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 250px; }
+  
+  .footer__casillas {
+    padding: 5px;
+    text-align: center;
+    line-height: 80px;
+    color: blanchedalmond; }
+    .footer__titulo{
+        font-size: 25px;
+        color:#BFA282;
+    }
+  .footer__titulo-info{
+      font-size: 18px;
+      height: 40px;
+      
+  }
+  
+  
+                                  /* FOOTER */
+
+  .cerrar {
+    clear: both; }
+  
+  .home {
+    text-align: center;
+    color: #FFD8AD;
+    text-decoration: none; }
+  
+  h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #806C57; }
+  
+                                /* Aca van los demas .html */
+  .main__productos {
+    padding: 5px;
+    display: inline-block;
+    font-size: 32px;
+    float: left;
+    width: 15%;
+    padding: 20px;
+    margin-top: 20px; }
+    .main__productos-option {
+      color: #BFA282;
+      text-decoration: none;
+      font-size: 18px; }
+      .main__fondo-prods {
+        background: white;
+        width: 80%;
+        margin: 0 auto; }
+
+  .cerrar {
+    clear: both; }
+  
+
+
+  
+
+  
+  .main__catalogo {
+    margin-top: 30px;
+    float: left;
+    width: 80%; }
+    .main__catalogo2 {
+      float: left;
+      width: $medidaestandar *2;
+      height: 360px;
+      border: solid 1px #FFD8AD;
+      margin: 20px;
+      background-color: #806C57; }
+  .main__catalogo-titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #FFD8AD;
+    text-align: center;
+    line-height: 25px; }
+  .main__catalogo-precio {
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    font-size: 21px; }
+
+
+    .footer__hola{
+      height: 400px;
+      color: #42382D;
+    }
+    
