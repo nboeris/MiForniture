@@ -86,7 +86,7 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
         height: $pixelgeneral;
         width: $medidaestandar *2;
         transition: width 3s; 
-        background-image: url("/images/#{$tabla}.jpg");
+        background-image: url("images/#{$tabla}.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
