@@ -175,7 +175,7 @@ h2 {
   padding: 5px;
   display: inline-block;
   font-size: 32px;
-  /* float: left; */
+  float: left;
   width: 15%;
   padding: 20px;
   margin-top: 20px; }
@@ -205,6 +205,9 @@ h2 {
   border: solid 1px #FFD8AD;
   margin: 20px;
   background-color: #806C57; }
+
+.main__catfoto1 {
+  width: 298px; }
 
 .main__catalogo-titulo {
   font-family: Arial, Helvetica, sans-serif;
