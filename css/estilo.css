@@ -157,6 +157,35 @@ footer {
   font-size: 18px;
   height: 40px; }
 
+.footer__foto {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  text-align: center;
+  width: 180px;
+  margin: 0 auto; }
+
+@media screen and (max-width: 600px) {
+  .footer__padre {
+    display: block; }
+  .footer__casillas {
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 100%; }
+  .footer__foto {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; } }
+
+@media screen and (max-width: 600px) {
+  .footer__padre {
+    display: block; }
+  .footer__casillas {
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 100%; }
+  .footer__foto {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; } }
+
 /* FOOTER */
 .cerrar {
   clear: both; }
