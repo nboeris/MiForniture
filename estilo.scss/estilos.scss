@@ -17,9 +17,8 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
 
 
                             /*HEADER*/
-.carousel-item {
-    max-height: 700px; }
-  
+
+
   header {
     /*
   padding-bottom: 15px;
@@ -57,13 +56,14 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
 
       #anuncio {
         color: #dd2626; }
-        
+
         .header__lupa {
           float: right;
           width: 100px;
           height: 16px;
           font-size: 12px;
-          transition: all 2s; }
+          transition: all 2s; 
+          }
         
         .header__lupa:focus {
           width: $medidaestandar;
@@ -106,7 +106,12 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
     display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 330px 50px;
-    justify-content: center; }
+    justify-content: center; 
+    margin-top: 40px;
+    
+  }
+
+
   /*
   .main__tabla-2 {
     height: 330px;
@@ -177,7 +182,7 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
   
   }
     
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 780px) {
     .footer__padre{
       display: block;
     }
@@ -190,8 +195,21 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
       display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     }
+
+    .main__tabla-1{
+      display: grid;
+    grid-template-columns: 200px ;
+    grid-template-rows: 200px 200px 200px 50px 50px 50px ;
+    margin-top: 40px;
+    }
+    
+
+    .main__productos{
+      display: none;
+    }
+
   }
-  @media screen and (max-width: 600px) {
+  /*@media screen and (max-width: 600px) {
     .footer__padre{
       display: block;
     }
@@ -204,7 +222,7 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
       display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     }
-  }
+  }*/
   
   
                                   /* FOOTER */
@@ -279,4 +297,4 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
       height: 400px;
       color: #42382D;
     }
-    
+
