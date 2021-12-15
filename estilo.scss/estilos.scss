@@ -86,7 +86,7 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
         height: $pixelgeneral;
         width: $medidaestandar *2;
         transition: width 3s; 
-        background-image: url("images/#{$tabla}.jpg");
+        background-image: url("/images/#{$tabla}.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -96,7 +96,7 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
     
   }
   .botonrojo{
-    padding: 0px;
+    padding: 10px;
   }
   main {
     background-color: #E6C29C;
@@ -134,7 +134,12 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
   opacity: 0.6;
   
 }
-
+  .main__tabla-3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: $hedfoot;
+    
+  }
 
 
   
