@@ -98,6 +98,9 @@ header {
 .main__tabla3:hover {
   width: 400px; }
 
+.botonrojo {
+  padding: 0px; }
+
 main {
   background-color: #E6C29C;
   padding-bottom: 20px; }
