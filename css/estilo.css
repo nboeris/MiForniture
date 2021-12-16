@@ -5,9 +5,6 @@ list-style-position */
 /* PARA USAR EL ANIMATED HAY QUE HACER:
 class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
 /*HEADER*/
-.carousel-item {
-  max-height: 700px; }
-
 header {
   /*
   padding-bottom: 15px;
@@ -31,9 +28,8 @@ header {
 
 .header__boton {
   letter-spacing: 2px;
-  float: right;
-  color: #FFD8AD;
-  text-decoration: none; }
+  width: 100%;
+  text-align: right; }
 
 .wsp {
   position: fixed;
@@ -99,7 +95,7 @@ header {
   width: 400px; }
 
 .botonrojo {
-  padding: 0px; }
+  padding: 10px; }
 
 main {
   background-color: #E6C29C;
@@ -109,7 +105,8 @@ main {
   display: grid;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 330px 50px;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 40px; }
 
 /*
   .main__tabla-2 {
@@ -134,6 +131,11 @@ main {
   background-size: cover;
   background-color: black;
   opacity: 0.6; }
+
+.main__tabla-3 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: #42382D; }
 
 /* FOOTER  */
 footer {
@@ -167,7 +169,7 @@ footer {
   width: 180px;
   margin: 0 auto; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
   .footer__padre {
     display: block; }
   .footer__casillas {
@@ -176,19 +178,27 @@ footer {
     grid-template-columns: 100%; }
   .footer__foto {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%; } }
-
-@media screen and (max-width: 600px) {
-  .footer__padre {
-    display: block; }
-  .footer__casillas {
+    grid-template-columns: 25% 25% 25% 25%; }
+  .main__tabla-1 {
     display: grid;
-    border: 2px solid black;
     grid-template-columns: 100%; }
-  .footer__foto {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%; } }
+  .main__productos {
+    display: none; } }
 
+/*@media screen and (max-width: 600px) {
+    .footer__padre{
+      display: block;
+    }
+    .footer__casillas{
+      display: grid;
+      border: 2px solid black;
+      grid-template-columns: 100%;
+    }
+    .footer__foto {
+      display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    }
+  }*/
 /* FOOTER */
 .cerrar {
   clear: both; }
@@ -205,6 +215,7 @@ h2 {
 /* Aca van los demas .html */
 .main__productos {
   padding: 5px;
+  display: inline-block;
   font-size: 32px;
   float: left;
   width: 15%;

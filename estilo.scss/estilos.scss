@@ -7,6 +7,8 @@ $rojo: red;
 $pixelgeneral: 330px;
 $medidaestandar:150px;
 
+
+
 /*
 <aside> CATALOGO DE COSTADO
 list-style-image: url;
@@ -37,7 +39,6 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
   .nav-link {
     color: #FFD8AD; }
   
-
   
   .header__titulo{
     color: #FFD8AD;
@@ -45,10 +46,11 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
   
   .header__boton {
     letter-spacing: 2px;
-    float: right;
-    color: #FFD8AD;
-    text-decoration: none; }
+    width: 100%;
+    text-align: right;
+    }
   
+    
     .wsp {
       position: fixed;
       bottom: 30px;
@@ -198,9 +200,7 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
 
     .main__tabla-1{
       display: grid;
-    grid-template-columns: 200px ;
-    grid-template-rows: 200px 200px 200px 50px 50px 50px ;
-    margin-top: 40px;
+    grid-template-columns: 100%;
     }
     
 
@@ -244,7 +244,7 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
     padding: 5px;
     display: inline-block;
     font-size: 32px;
-  float: left; 
+    float: left; 
     width: 15%;
     padding: 20px;
     margin-top: 20px; }
