@@ -132,6 +132,9 @@ main {
   background-color: black;
   opacity: 0.6; }
 
+.main__tabla-2 {
+  display: none; }
+
 .main__tabla-3 {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -169,22 +172,6 @@ footer {
   width: 180px;
   margin: 0 auto; }
 
-@media screen and (max-width: 780px) {
-  .footer__padre {
-    display: block; }
-  .footer__casillas {
-    display: grid;
-    border: 2px solid black;
-    grid-template-columns: 100%; }
-  .footer__foto {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%; }
-  .main__tabla-1 {
-    display: grid;
-    grid-template-columns: 100%; }
-  .main__productos {
-    display: none; } }
-
 /*@media screen and (max-width: 600px) {
     .footer__padre{
       display: block;
@@ -213,8 +200,10 @@ h2 {
   color: #806C57; }
 
 /* Aca van los demas .html */
+.collapse {
+  background-color: blue; }
+
 .main__productos {
-  padding: 5px;
   display: inline-block;
   font-size: 32px;
   float: left;
@@ -267,3 +256,31 @@ h2 {
 .footer__hola {
   height: 400px;
   color: #42382D; }
+
+@media screen and (max-width: 780px) {
+  .footer__padre {
+    display: block; }
+  .footer__casillas {
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 100%; }
+  .footer__foto {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; }
+  .main__tabla-1 {
+    display: none; }
+  .main__tabla-2 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto; }
+  .main__tabla4 {
+    width: 300px;
+    margin: 20px auto; }
+  .main__productos {
+    display: none; }
+  .main__catalogo {
+    margin: 20px auto;
+    width: 100%; }
+  .main__catalogo2 {
+    width: 300px;
+    text-align: center; } }

@@ -141,6 +141,9 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
   opacity: 0.6;
   
 }
+.main__tabla-2{
+  display: none;
+}
   .main__tabla-3{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -184,31 +187,7 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
   
   }
     
-  @media screen and (max-width: 780px) {
-    .footer__padre{
-      display: block;
-    }
-    .footer__casillas{
-      display: grid;
-      border: 2px solid black;
-      grid-template-columns: 100%;
-    }
-    .footer__foto {
-      display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    }
 
-    .main__tabla-1{
-      display: grid;
-    grid-template-columns: 100%;
-    }
-    
-
-    .main__productos{
-      display: none;
-    }
-
-  }
   /*@media screen and (max-width: 600px) {
     .footer__padre{
       display: block;
@@ -240,18 +219,22 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
     color: #806C57; }
   
                                 /* Aca van los demas .html */
+    .collapse{
+      background-color: blue;
+    }
   .main__productos {
-    padding: 5px;
     display: inline-block;
     font-size: 32px;
     float: left; 
     width: 15%;
     padding: 20px;
     margin-top: 20px; }
+
     .main__productos-option {
       color: #BFA282;
       text-decoration: none;
       font-size: 18px; }
+
       .main__fondo-prods {
         background: white;
         width: 80%;
@@ -298,3 +281,45 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
       color: #42382D;
     }
 
+    @media screen and (max-width: 780px) {
+      .footer__padre{
+        display: block;
+      }
+      .footer__casillas{
+        display: grid;
+        border: 2px solid black;
+        grid-template-columns: 100%;
+      }
+      .footer__foto {
+        display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      }
+  
+      .main__tabla-1{
+        display: none;
+      } 
+  
+      .main__tabla-2{
+        display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: auto;
+      }
+      .main__tabla4 {
+        width: 300px;
+        margin: 20px auto;
+        }
+  
+        .main__productos {
+        display: none;
+        }
+
+        .main__catalogo{
+          margin: 20px auto;
+          width: 100%;
+          
+        }
+        .main__catalogo2{
+          width: 300px;
+          text-align: center;
+        }
+    }
