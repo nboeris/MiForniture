@@ -19,36 +19,90 @@
     <body>
     
         <header>
-            <div class="header__anuncio">¡Costo mayor a $20.000 envio gratis!<a href="hola.html" class="header__boton">Ingresar</a> </div> 
+            <div class="header__anuncio">¡Costo mayor a $20.000 envio gratis! </div> 
             <h1 class="header__titulo"><img src="images/tf.png" width="150"> &nbsp; &nbsp; Tu Furniture</h1>
     
     
     
     
     
-            <ul class="nav justify-content-center h3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Nosotros">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contactanos</a>
-              </li>
-              
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Productos</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Productos.html">Sillones</a></li>
-                <li><a class="dropdown-item" href="mesasYsillas.html">Mesas y Sillas</a></li>
-                <li><a class="dropdown-item" href="racks.html">Racks</a></li>
-                <li><a class="dropdown-item" href="muebles.html">Muebles</a></li>
-              </ul>
-            </li></ul>
+            <div class="menu_celuno">
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a  class="ingresar" href="/hola.html"> <div >Ingresar</div> </a>
+              </div>
+              <ul class="nav justify-content-center h3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Nosotros">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contactanos</a>
+                </li>
+                
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Productos</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Productos.html">Sillones</a></li>
+                  <li><a class="dropdown-item" href="mesasYsillas.html">Mesas y Sillas</a></li>
+                  <li><a class="dropdown-item" href="racks.html">Racks</a></li>
+                  <li><a class="dropdown-item" href="muebles.html">Muebles</a></li>
+                </ul>
+              </li></ul>
+            </div>
     
             
-            <div > <input type="text"name="Buscar" class="header__lupa" placeholder="Buscar" >  </div> 
+            <div class="lupa"> <input type="text"name="Buscar" class="header__lupa" placeholder="Buscar" >  </div> 
+
+
+            <div class="menu_celusi">
+              <nav class="navbar navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Tu Forniture</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="/index.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                            <li><a class="dropdown-item" href="/Productos.html">Sillones</a></li>
+                            <li><a class="dropdown-item" href="/racks.html">Racks</a></li>
+                            <li><a class="dropdown-item" href="/muebles.html">Muebles</a></li>
+                            <li><a class="dropdown-item" href="/mesasYsillas.html">Mesas y Sillas</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            
+
         </header>
     
         <main class="main__fondo-prods">
@@ -111,7 +165,7 @@
                     <h4 class="footer__titulo-info">Tu_forniture@gmail.com</h4></div>
                     <div class="footer__casillas">
                         <h3 class="footer__titulo">ENCONTRANOS EN</h3>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8461712059047!2d-58.37246648423675!3d-34.608051165235516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352cbe276f75%3A0xe16921ef0545f86d!2sCasa%20Rosada!5e0!3m2!1ses-419!2sar!4v1634079151335!5m2!1ses-419!2sar" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8461712059047!2d-58.37246648423675!3d-34.608051165235516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352cbe276f75%3A0xe16921ef0545f86d!2sCasa%20Rosada!5e0!3m2!1ses-419!2sar!4v1634079151335!5m2!1ses-419!2sar" width="150" height="150" class="mapa" allowfullscreen="" loading="lazy"></iframe>
                 </div>
                 <div class="cerrar">  </div>
             </div>

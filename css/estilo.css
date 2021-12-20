@@ -17,19 +17,27 @@ header {
 
 .header__anuncio {
   text-align: center;
-  color: red; }
+  color: #E6C29C;
+  background-color: #806C57; }
+
+.lupa {
+  margin: 10px; }
 
 .nav-link {
   color: #FFD8AD; }
 
 .header__titulo {
   color: #FFD8AD;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 37px; }
 
 .header__boton {
   letter-spacing: 2px;
   width: 100%;
   text-align: right; }
+
+.menu_celusi {
+  display: none; }
 
 .wsp {
   position: fixed;
@@ -203,6 +211,13 @@ h2 {
 .collapse {
   background-color: blue; }
 
+.ingresar {
+  color: #E6C29C;
+  text-decoration: none;
+  text-transform: inherit;
+  margin: -100px 15px;
+  position: fixed; }
+
 .main__productos {
   display: inline-block;
   font-size: 32px;
@@ -257,6 +272,11 @@ h2 {
   height: 400px;
   color: #42382D; }
 
+.mapa {
+  border: 0;
+  text-align: center;
+  margin: 0 auto; }
+
 @media screen and (max-width: 780px) {
   .footer__padre {
     display: block; }
@@ -283,4 +303,8 @@ h2 {
     width: 100%; }
   .main__catalogo2 {
     width: 300px;
-    text-align: center; } }
+    text-align: center; }
+  .menu_celuno {
+    display: none; }
+  .menu_celusi {
+    display: block; } }

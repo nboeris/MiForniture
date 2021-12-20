@@ -33,16 +33,22 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
   
   .header__anuncio {
     text-align: center;
-    color: $rojo; 
+    color: $mclaro;
+    background-color: $as;
+    
   }
-  
+  .lupa{
+    margin: 10px;
+  }
   .nav-link {
     color: #FFD8AD; }
   
   
   .header__titulo{
     color: #FFD8AD;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 37px;
+     }
   
   .header__boton {
     letter-spacing: 2px;
@@ -50,7 +56,9 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
     text-align: right;
     }
   
-    
+  .menu_celusi{
+    display: none;
+  }
     .wsp {
       position: fixed;
       bottom: 30px;
@@ -222,6 +230,16 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
     .collapse{
       background-color: blue;
     }
+  
+  .ingresar{
+    color: #E6C29C;
+    text-decoration: none;
+    text-transform: inherit;
+    margin: -100px 15px;
+    
+    position: fixed;
+
+  }
   .main__productos {
     display: inline-block;
     font-size: 32px;
@@ -280,6 +298,11 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
       height: 400px;
       color: #42382D;
     }
+    .mapa{
+      border: 0;
+      text-align: center;
+      margin: 0 auto;
+    }
 
     @media screen and (max-width: 780px) {
       .footer__padre{
@@ -321,5 +344,11 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
         .main__catalogo2{
           width: 300px;
           text-align: center;
+        }
+        .menu_celuno{
+          display: none;
+        }
+        .menu_celusi{
+          display: block;
         }
     }
