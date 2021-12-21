@@ -37,17 +37,23 @@ class="animate_animated(Y DESP EL NOMBRE DE LA ANIMACION A UTILIZAR)" */
     background-color: $as;
     
   }
+  .title1{
+    text-decoration: none;
+    text-transform: inherit;
+  }
   .lupa{
     margin: 10px;
   }
   .nav-link {
     color: #FFD8AD; }
   
+
   
   .header__titulo{
     color: #FFD8AD;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 37px;
+    text-decoration: none;
      }
   
   .header__boton {

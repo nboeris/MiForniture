@@ -20,6 +20,10 @@ header {
   color: #E6C29C;
   background-color: #806C57; }
 
+.title1 {
+  text-decoration: none;
+  text-transform: inherit; }
+
 .lupa {
   margin: 10px; }
 
@@ -29,7 +33,8 @@ header {
 .header__titulo {
   color: #FFD8AD;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-top: 37px; }
+  margin-top: 37px;
+  text-decoration: none; }
 
 .header__boton {
   letter-spacing: 2px;
